@@ -1,8 +1,18 @@
 # Orderx.Exchange-Beta (onchain - orderbook) on Binance Smart cahin (Testnet)Dapp
+## Binance Hackathon: The Future Is Now
 
+## 🔥 [Live Demo](https://orderx-exchange.herokuapp.com/) 🔥
 ## About this project
 
 A decentralized exchange allow trading with BEP20 tokens using orderbook. The quote currency is BUSD. There are 2 trading options : limited order and market order. Users can create buy/sell limit/market orders. They can deposit/ withdraw tokens between their Metamask wallets and their Orderx.Exchange account.
+
+#### Orderx Contract on BSC Testnet
+- Orderx Exchange Contract: [0xFb2659C50778Ce810124B2b322dED92a7233C3eC](https://testnet.bscscan.com/address/0xFb2659C50778Ce810124B2b322dED92a7233C3eC)
+#### Mock Token on BSC Testnet
+- BUSD Mock Token: [0xe97b2d94F82Eca0dE1c9D552aD4ABC1C8C3dD4ec](https://testnet.bscscan.com/address/0xe97b2d94F82Eca0dE1c9D552aD4ABC1C8C3dD4ec)
+- WBNB Mock Token: [0x4F0c19f92eCEFcECC231F12818FE8D5f14608f5A](https://testnet.bscscan.com/address/0x4F0c19f92eCEFcECC231F12818FE8D5f14608f5A)
+- CAKE Mock Token: [0xfBaAC96Fa9cf01bc5f851E978605827Ec4f357A0](https://testnet.bscscan.com/address/0xfBaAC96Fa9cf01bc5f851E978605827Ec4f357A0)
+- DOT Mock Token: [0xcDd3D1Df4c16c3d8eDbC930F08A0Ed8Ca689B375](https://testnet.bscscan.com/address/0xcDd3D1Df4c16c3d8eDbC930F08A0Ed8Ca689B375)
 
 ## Archiect of Orderx.Exchange
 
@@ -10,7 +20,7 @@ User wallet (default to be Metamask)
 Frontend (Web app)
 Smart contract (Blockchain)
 
-A frontend which is the Web app is connected to both user wallet and the smart contract. User uses the web app to interact with the DEX smart contract. When sending any transaction, user wallet will prompt the user for confirmation.
+A frontend which is the Web app is connected to both user wallet and the smart contract. User uses the web app to interact with the Orderx smart contract. When sending any transaction, user wallet will prompt the user for confirmation.
 
 ## Preset data for interaction 
 
@@ -50,14 +60,6 @@ https://youtu.be/8XcMc3k0Gt0
 4. Install Openzepplin testing package*
     >npm install @openzeppelin/text-helpers
 
-5. Install react moment for displaying date and time in human readable format under "/client":
-    >npm install moment react-moment
-
-6. Install recharts for displaying trade price in chart format under "/client":
-    >npm install recharts
-
-* Note: (4) Truffle has already an integrated debugger, so it is optional to install external testing API.
-
 ## Installation/Running
 
 **Launching local blockchain with Ganache**
@@ -81,20 +83,23 @@ Open up another new terminal, make sure the ganache-cli terminal is running at t
 2. Move to the directory
     >npm install
 
-3. Move to "client" directory
-    >npm install web3
-
-4. Compile the contracts
+3. Compile the contracts
     >truffle compile
 
-5.  Migrate to ganache-cli
+4.  Migrate to ganache-cli
     >truffle migrate --reset
 
-6. Run tests. (All tests should pass)
+5. Run tests. (All tests should pass)
     >truffle test
 
-7. Run Dapp, move to client folder
-    >npm start
+6. Run Dapp, move to frontend folder
+    > cd frontend
+7. Install the dependencies
+    > yarn install
+8. Run the App
+    > yarn start
+9. Or follow these [Instructions](https://github.com/Usman75/order-x/blob/main/frontend/README.md)
+   
 
 ## Visiting an URL and interact with the application
 
