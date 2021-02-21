@@ -2,6 +2,10 @@
 ## Binance Hackathon: The Future Is Now
 
 ## 🔥 [Live Demo](https://orderx-exchange.herokuapp.com/) 🔥
+
+### Demo
+[![OrderX Demo](http://img.youtube.com/vi/l8P_Wmxoobo/default.jpg)](https://youtu.be/l8P_Wmxoobo)
+
 ## About this project
 
 A decentralized exchange allow trading with BEP20 tokens using orderbook. The quote currency is BUSD. There are 2 trading options : limited order and market order. Users can create buy/sell limit/market orders. They can deposit/ withdraw tokens between their Metamask wallets and their Orderx.Exchange account.
@@ -32,9 +36,6 @@ Mock 4 BEP20 tokens (BUSD, WBNB, CAKE, DOT) for this project instead of interact
 
 Preset trade data and order data when deploy the contract in "2_deploy_contracts.js"
 
-## Youtube Demo
-
-https://youtu.be/8XcMc3k0Gt0
 
 ## Pre-requisites and programs used versions:
 
