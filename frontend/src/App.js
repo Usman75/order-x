@@ -191,14 +191,14 @@ function App({web3, accounts, contracts}) {
               deposit={deposit}
               withdraw={withdraw}
             />
-            {user.selectedToken.ticker !== 'DAI' ? (
+            {user.selectedToken.ticker !== 'BUSD' ? (
               <NewOrder 
                 createMarketOrder={createMarketOrder}
                 createLimitOrder={createLimitOrder}
               />
             ) : null}
           </div>
-          {user.selectedToken.ticker !== 'DAI' ? (
+          {user.selectedToken.ticker !== 'BUSD' ? (
             <div className="col-sm-8">
               <AllTrades 
                 trades={trades}
