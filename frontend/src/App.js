@@ -216,9 +216,10 @@ function App({web3, accounts, contracts}) {
                   )
                 }}
               />
+              {user.accounts[0] === '0xF09fA55D7c2F0064Ac5156B8f2ca4e8E321CbDbc'?(
               <AddToken
               addNewToken= {addNewToken}
-              />
+              /> ): null}
             </div>
           ) : null}
         </div>
